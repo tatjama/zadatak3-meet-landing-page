@@ -1,0 +1,20 @@
+:root{
+    --primary-teal: rgb(77, 150, 168);
+    --secondary-teal: rgb(143, 227, 249);
+    --primary-violet: rgb(133, 95, 177);
+    --secondary-violet: rgb(217, 184, 255);
+    --text-dark: rgb(40, 40, 61);
+    --text-light: rgb(135, 135, 157);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, .container{    
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    line-height:26px;
+    font-weight: 500;
+}
