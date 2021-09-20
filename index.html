@@ -15,49 +15,92 @@
   <div class="container">
     <!--Start Header-->
     <header>
-      <img src="./assets/logo.svg" alt="logo meet">
+      <div class="header__logo">
+        <img  src="./assets/logo.svg" alt="logo meet">
+      </div>
       <section class="hero">
-        <div class="hero__img--left"></div>
+        <div class="hero__imgs-container ">
+          <div class="hero__imgs--left">
+            <div class="hero__imgs--up">
+              <img src="./images/avatar1.jpg" alt="avatar1" class="hero__img">
+              <img src="./images/avatar11.jpg" alt="avatar11" class="hero__img">
+              <img src="./images/avatar2.jpg" alt="avatar2" class="hero__img">
+            </div>
+            <div class="hero__imgs--up">
+              <img src="./images/avatar8.jpg" alt="avatar8" class="hero__img">
+              <img src="./images/avatar3.jpg" alt="avatar3" class="hero__img">
+              <img src="./images/avatar12.jpg" alt="avatar12" class="hero__img">
+            </div>
+          </div>
+        </div>
         <div class="hero__copy">
           <h1 class="hero__title">Group Chat for Everyone</h1>
           <p class="hero__text">
             Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
           </p>
           <div class="hero__btns">
-            <button class="hero__btn--left">Download v1.3</button>
+            <button class="hero__btn--left">Download <span class="hero__span"> v1.3</span></button>
             <button class="hero__btn--right">What is it?</button>
           </div>
+        </div>  
+        <div class="hero__imgs-container">
+          <div class="hero__imgs--right">
+            <div class="hero__imgs--down">
+              <img src="./images/avatar7.jpg" alt="avatar7" class="hero__img">
+              <img src="./images/avatar4.jpg" alt="avatar4" class="hero__img">
+              <img src="./images/avatar9.jpg" alt="avatar9" class="hero__img">
+            </div>
+            <div class="hero__imgs--down">
+              <img src="./images/avatar5.jpg" alt="avatar5" class="hero__img">
+              <img src="./images/avatar10.jpg" alt="avatar10" class="hero__img">
+              <img src="./images/avatar6.jpg" alt="avatar6" class="hero__img">
+            </div>
+          </div>
         </div>
-        <div class="hero__img--right"></div>
+
+        
       </section>
     </header>
     <!--End Header-->
+    <div class="separator">
+      <div class="separator__left"></div>
+      <div class="separator__bottom">01</div>
+    </div>
     <!--Start Main Section-->
     <main class="main">
       <section class="main__imgs-container">
-        <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="women in video call">
-        <img src="./assets/desktop/image-women-videochatting.jpg" alt="women videochating">
-        <img src="./assets/desktop/image-men-in-meeting.jpg" alt="man in meeting">
-        <img src="./assets/desktop/image-man-texting.jpg" alt="man texting">
+        <img src="./assets/desktop/image-woman-in-videocall.jpg" class="main__img" alt="women in video call">
+        <img src="./assets/desktop/image-women-videochatting.jpg" class="main__img" alt="women videochating">
+        <img src="./assets/desktop/image-men-in-meeting.jpg" class="main__img" alt="man in meeting">
+        <img src="./assets/desktop/image-man-texting.jpg" class="main__img" alt="man texting">
       </section>
       <article class="main__article"> 
         <h3>Built for modern use</h3>
-        <h2>Smarter meetings, all in one place</h2>
-        <p>Send messages, share files, show your screen, and record your meetings — all in one 
+        <h2 class="main__h2">Smarter meetings, all in one place</h2>
+        <p class="main__p">
+          Send messages, share files, show your screen, and record your meetings — all in one 
           workspace. Control who can join with invite-only team access, data encryption, and data export.
         </p>
       </article>
     </main>
     <!--End Main section-->
+    <div class="separator">
+      <div class="separator__left"></div>
+      <div class="separator__bottom">02</div>
+    </div>
     <!--Start Footer-->
-    <footer class="footer">
-      <h2>Experience more together</h2>
-      <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-      <button>Download v1.3</button>
+    <footer >
+      <div class="footer__container">
+        <article class="footer__article">
+          <h2 class="footer__item footer__h2">Experience more together</h2>
+          <p class="footer__item footer__p">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+          <button class="footer__btn">Download <span class="footer__span"> v1.3</span></button>
+        </article>
+      </div>
     </footer>
     <!--End Footer-->
 
-  </div>  01  02
+  </div>    
   
 </body>
 </html>
