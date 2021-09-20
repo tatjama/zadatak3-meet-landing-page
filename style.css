@@ -197,6 +197,7 @@ footer{
     top: -28px;
     width: 100%;
     background-image: url(./assets/desktop/image-footer.jpg);
+    margin-bottom: -28px;
 }
 .footer__container{
     background-color: rgba(77, 150, 168, 0.9);
@@ -311,4 +312,94 @@ footer{
         margin: 40px 0;
     }
     /*End Footer*/
+}
+@media screen and (max-width:700px){
+    h1{
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 auto;
+    }
+    /*Start Header section*/ 
+    .hero{
+        margin: 0px auto;
+    }
+    .header__logo{
+        margin: 48px auto 72px auto;
+    }
+    .hero__imgs--right{
+        bottom: 27.5px;
+    }
+    .hero__imgs--left .hero__img:nth-child(2){
+        bottom: 27.5px;
+        margin: 7px 16px;
+    }
+    .hero__imgs--right .hero__img:nth-child(2){
+        top: 27.5px;
+        margin: 7px 16px;
+    }
+    .hero__img{
+        width: 55px;
+        height: 55px;
+        margin: 7px 0;
+    }
+    .hero__copy{
+        width: 100%;
+    }
+    .hero__text{
+        width: 327px;
+        margin: 24px auto 32px auto;
+    }
+    button{
+        display: block;
+        margin: 16px auto;
+    }
+    /*End Header Section*/
+    .separator{
+        margin: 0px auto;
+    }
+    /*Start Main Section*/
+    .main__imgs-container{
+        width: 100%;
+        margin: 52px auto;
+        padding: 12px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main__img{
+        width:151px;
+        height: 143px;
+        margin: 12px;
+    }
+    .main__article{
+        width: 327px;
+    }
+    .main__h2{
+        margin: 24px auto;
+        font-size:32px;
+        line-height:36px;
+    }
+    .main__p{
+        padding:8px;
+    }
+    .separator--second{
+        margin-top:40px;
+    }    
+    /*End Main Section*/
+    /*Start Footer*/
+    .footer__article{
+        width: 100%;
+        margin: 50px auto 0px auto;
+    }
+    .footer__h2{
+        font-size:32px;
+        line-height:36px;
+        width:327px;
+    }
+    .footer__p{
+        margin: 8px 0;
+    }
+    .footer__btn{
+        margin: 24px auto 48px auto;
+    }
+    /*End Footer*/   
 }
