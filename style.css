@@ -237,14 +237,14 @@ footer{
     }
     /*Start Header Section*/
     .header__logo{
-        margin: 50px auto 95px auto;
+        margin: 48px auto 81px auto;
     }
     .hero{
         flex-wrap: wrap;
     }
     .hero__copy{
         order: 3;
-        margin: 48px auto;    
+        margin: 46px auto 30px auto;    
         width: 60%;
     }
     /*Start Images Container*/
@@ -267,10 +267,13 @@ footer{
     }
     /*End images Container*/
     /*End Header Section*/
+    .separator{
+        margin: 50px auto 0px auto;        
+    }
     /*Start Main Container*/
     .main__imgs-container{
         width: 689px;
-        margin: 48px auto;
+        margin: 67px auto 48px auto;
     }
     .main__img{
         width:164px;
@@ -278,13 +281,12 @@ footer{
     }
     .main__article{
         width: 573px;
-    }
-    
+    }    
     .main__h2{
         margin: 16px 65px;
     }
     .main__p{
-        padding: 0;
+        padding: 16px 0;
     }
     /*End Main Container*/
     /*Start Footer*/
@@ -294,7 +296,7 @@ footer{
     .footer__article{
         flex-direction: column;
         width: 573px;
-        margin: 50px auto 0px auto;
+        margin: 36px auto 0px auto;
     }
     .footer__item{
         width: 100%;
