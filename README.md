@@ -11,9 +11,9 @@
   - [Author](#author)
 ## Overview
 
-[Overview](./images/screenshots/meet-landing-page-1.jpg)
-[Mobile 375x2215px](./images/screenshots/meet-landing-page-2.jpg)
-[Tablet 768x2128px](./images/screenshots/meet-landing-page-3.jpg)
+![Overview](./images/screenshots/meet-landing-page-1.jpg)
+![Mobile 375x2215px](./images/screenshots/meet-landing-page-2.jpg)
+![Tablet 768x2128px](./images/screenshots/meet-landing-page-3.jpg)
 
 ### The challenge
 
@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-[Mobile 375x2215px](./images/screenshots/mobile-375x2215.png)
-[Tablet 768x2128px](./images/screenshots/tablet-768x2128.png)
-[Desktop 1440x1895px](./images/screenshots/desktop-1440x1895.png)
-[FullScreen 1](./images/screenshots/fullscreen1.png)
-[FullScreen 2](./images/screenshots/fullscreen2.png)
-[FullScreen 3](./images/screenshots/fullscreen3.png)
+![Mobile 375x2215px](./images/screenshots/mobile-375x2215.png)
+![Tablet 768x2128px](./images/screenshots/tablet-768x2128.png)
+![Desktop 1440x1895px](./images/screenshots/desktop-1440x1895.png)
+![FullScreen 1](./images/screenshots/fullscreen1.png)
+![FullScreen 2](./images/screenshots/fullscreen2.png)
+![FullScreen 3](./images/screenshots/fullscreen3.png)
 ### Links
 
 -  [Solution URL:](https://github.com/tatjama/zadatak3-meet-landing-page/tree/develop)
