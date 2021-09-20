@@ -1,8 +1,10 @@
 :root{
     --primary-teal: rgb(77, 150, 168);
     --secondary-teal: rgb(143, 227, 249);
+    --hover-teal:rgb(113, 192, 212);
     --primary-violet: rgb(133, 95, 177);
     --secondary-violet: rgb(217, 184, 255);
+    --hover-violet: rgb(177, 139, 221);
     --text-dark: rgb(40, 40, 61);
     --text-light: rgb(135, 135, 157);
 }
@@ -17,4 +19,37 @@ html, body, .container{
     font-size: 18px;
     line-height:26px;
     font-weight: 500;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 64px;
+    line-height:64px;
+    margin: 32px 40px ;
+}
+h2{
+    font-size: 40px;
+    line-height: 44px;
+}
+h3{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:var(--primary-teal);
+    letter-spacing: 4px;
+}
+button{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    padding:16px 40px;
+    letter-spacing: -1px;
+    border-radius: 50px;
+    border: 0px solid transparent;
+    margin: 0px 8px;
+    cursor: pointer;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
