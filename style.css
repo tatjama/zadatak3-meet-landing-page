@@ -197,6 +197,8 @@ footer{
     top: -28px;
     width: 100%;
     background-image: url(./assets/desktop/image-footer.jpg);
+    background-position: top center;
+    background-size: cover;
     margin-bottom: -28px;
 }
 .footer__container{
@@ -290,6 +292,9 @@ footer{
     }
     /*End Main Container*/
     /*Start Footer*/
+    footer{        
+        background-image: url(./assets/tablet/image-footer.jpg);
+    }
     .footer__container{
         padding: 26px;
     }
@@ -388,6 +393,9 @@ footer{
     }    
     /*End Main Section*/
     /*Start Footer*/
+    footer{        
+        background-image: url(./assets/mobile/image-footer.jpg);        
+    }
     .footer__article{
         width: 100%;
         margin: 50px auto 0px auto;
