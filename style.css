@@ -53,6 +53,14 @@ button{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+.wrapper{
+    background-color: rgba(135, 135, 157, 0.1);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
 /*Start Header Section*/
 .header__logo{
     margin: 80px auto 61px auto;
