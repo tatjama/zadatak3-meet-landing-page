@@ -1,53 +1,75 @@
-# Meet landing page
+# Meet landing page solution
 
-![Design preview for the Meet landing page coding challenge](./preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+  - [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [My process](#my-process)
+  - [Built with](#built-with)
+  - [Author](#author)
+## Overview
 
-**To do this challenge, you need a decent understanding of HTML & CSS.**
+![Overview](./images/screenshots/meet-landing-page-1.jpg)
+![Mobile 375x2215px](./images/screenshots/meet-landing-page-2.jpg)
+![Tablet 768x2128px](./images/screenshots/meet-landing-page-3.jpg)
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-## Where to find everything
+### Screenshot
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+![Mobile 375x2215px](./images/screenshots/mobile-375x2215.png)
+![Tablet 768x2128px](./images/screenshots/tablet-768x2128.png)
+![Desktop 1440x1895px](./images/screenshots/desktop-1440x1895.png)
+![FullScreen 1](./images/screenshots/fullscreen1.png)
+![FullScreen 2](./images/screenshots/fullscreen2.png)
+![FullScreen 3](./images/screenshots/fullscreen3.png)
+### Links
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
+-  [Solution URL:](https://github.com/tatjama/zadatak3-meet-landing-page/tree/develop)
+-  [Live Site URL:](https://zadatak3-meet-landing-page.vercel.app/)
+-  [Preview:](https://zadatak3-meet-landing-page-7pf8ntc7m-tatjana.vercel.app/)
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
+## My process
 
-## Building your project
+1. Create a new project and
+2. Import starting code
+3. Initializing git repositories main and development
+4. Import git repositories to the Vercel project
+5. Create HTML structure
+6. Import Avatars and Font styles
+7. Use Figma design tools for measurements
+8. Create CSS Utility
+9. Style for Header Section
+10. Style for Main Section
+11. Style for Footer Section
+12. Responsive breakpoints at 1200px and 700px
+13. Compare original designs with my work
+14. Create screenshots
+15. Change README-template.md to README.md
+16. Open Pull request
+17. Solve Issue
+18. Merge develop branch into master branch
+### Built with
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- Semantic HTML5 markup
+- CSS custom properties
+- FlexBox
+- Media queries
+- Centering elements, content and text
+- Background Image
+- Element positioning
+- Customize font,width and size
+- Transparency
+- Hover
+## Author
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [Vercel](https://vercel.com/)
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-**Have fun building!** 🚀
+- Website - [Tatjana Markovic](https://my-react-portfolio-tatjana.vercel.app/)
+- LinkedIn - [Tatjana Marković](https://www.linkedin.com/in/tatjana-markovi%C4%87-919501189/)
+- GitHub - [tatjama](https://github.com/tatjama)
